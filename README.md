@@ -25,6 +25,10 @@ The discovery source is the public CELLxGENE collection identified in `DATA_MANI
 
 Validate package versions and input checksums before rerunning. The scripts and derived tables in this repository represent the frozen analysis branch; no new downstream analyses are part of this release.
 
+## Citation
+
+Version 1.0 is archived on Zenodo: [10.5281/zenodo.22915573](https://doi.org/10.5281/zenodo.22915573). The concept DOI for all versions is [10.5281/zenodo.22915572](https://doi.org/10.5281/zenodo.22915572). The archived release corresponds to the GitHub tag [`1.0`](https://github.com/seefreewind/human-rpe-regional-core/tree/1.0). Citation metadata are provided in `CITATION.cff`.
+
 ## Data and code status
 
 This repository contains derived tables and code intended for public reuse. Reused public datasets remain governed by their original access and licensing terms.
