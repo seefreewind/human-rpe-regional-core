@@ -1,0 +1,23 @@
+metric	value	note
+shared_genes_set_A	16415.0	unique exact symbol mapping
+spearman_beta_concordance	0.20330469970549278	primary metric
+spearman_bootstrap_CI_low	0.18759019453660158	ordinary gene bootstrap; gene dependence limitation
+spearman_bootstrap_CI_high	0.21840981467918852	ordinary gene bootstrap; gene dependence limitation
+pearson_beta_concordance	0.2430137873463144	secondary metric
+tier1_ge3_of_4_donor_fraction	0.5127803860198227	primary donor consistency metric
+tier1_4_of_4_donor_fraction	0.13823682837767345	descriptive
+TIER1_ALL_n_evaluable	1917.0	direction summary
+TIER1_ALL_n_same_direction	1366.0	direction summary
+TIER1_ALL_same_direction_fraction	0.7125717266562337	direction summary
+TIER1_ALL_binomial_p_greater_0.5	6.907600754898561e-80	direction summary
+TIER1_ALL_median_external_beta	-0.06449087702908318	direction summary
+TIER1_MACULA_UP_n_evaluable	793.0	direction summary
+TIER1_MACULA_UP_n_same_direction	564.0	direction summary
+TIER1_MACULA_UP_same_direction_fraction	0.7112232030264817	direction summary
+TIER1_MACULA_UP_binomial_p_greater_0.5	1.0055841832477645e-33	direction summary
+TIER1_MACULA_UP_median_external_beta	0.33174974815120584	direction summary
+TIER1_PERIPHERY_UP_n_evaluable	1124.0	direction summary
+TIER1_PERIPHERY_UP_n_same_direction	802.0	direction summary
+TIER1_PERIPHERY_UP_same_direction_fraction	0.7135231316725978	direction summary
+TIER1_PERIPHERY_UP_binomial_p_greater_0.5	4.65663664393023e-48	direction summary
+TIER1_PERIPHERY_UP_median_external_beta	-0.31662044096077646	direction summary

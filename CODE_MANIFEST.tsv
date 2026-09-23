@@ -1,0 +1,10 @@
+release_path	project_source	analysis_role	status
+scripts/build_pseudobulk.py	scripts/pivot_phase1/build_pseudobulk.py	Donor-region pseudobulk construction	INCLUDED
+scripts/run_models.R	scripts/pivot_phase1/run_models.R	Regional and sensitivity models	INCLUDED
+scripts/annotate_gene_ids.py	scripts/pivot_phase1/annotate_gene_ids.py	Gene identifier annotation	INCLUDED
+scripts/run_age_region_models.R	scripts/pivot_phase2/run_age_region_models.R	Age × Region model	INCLUDED
+scripts/build_composition_audit.py	scripts/pivot_phase2/build_composition_audit.py	Subtype composition audit	INCLUDED
+scripts/run_gse220155_validation.py	scripts/pivot_phase3/run_gse220155_validation.py	External GSE220155 validation	INCLUDED
+scripts/run_regional_core_analysis.py	scripts/regional_core/run_regional_core_analysis.py	Fixed core and effect-size replication	INCLUDED
+config/regional_core_analysis_freeze.yaml	config/regional_core_analysis_freeze.yaml	Frozen branch configuration	INCLUDED
+environment_lock	NOT PRESENT	Package versions and runtime snapshot	MISSING

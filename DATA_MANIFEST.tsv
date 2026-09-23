@@ -1,0 +1,14 @@
+release_path	project_source	data_role	access_route	status
+results/regional_core/CORE100_DONOR_REPLICATION.tsv	results/regional_core/CORE100_DONOR_REPLICATION.tsv	CORE100 donor replication	public release after author review	INCLUDED
+results/regional_core/CROSS_COHORT_CORE_VALIDATION.tsv	results/regional_core/CROSS_COHORT_CORE_VALIDATION.tsv	Nested core validation metrics	public release after author review	INCLUDED
+results/regional_core/EFFECT_SIZE_REPLICATION_MODEL.tsv	results/regional_core/EFFECT_SIZE_REPLICATION_MODEL.tsv	Effect-size logistic and rank summaries	public release after author review	INCLUDED
+results/regional_core/HIGH_CONFIDENCE_REGIONAL_CORE.tsv	results/regional_core/HIGH_CONFIDENCE_REGIONAL_CORE.tsv	71-gene core	public release after author review	INCLUDED
+results/regional_core/REGIONAL_CORE_GENE_ACTIVITY.tsv	results/regional_core/REGIONAL_CORE_GENE_ACTIVITY.tsv	Gene-activity support	public release after author review	INCLUDED
+results/pivot_phase1/PSEUDOBULK_SAMPLE_QC.tsv	results/pivot_phase1/PSEUDOBULK_SAMPLE_QC.tsv	Discovery donor-region QC	public release after author review	INCLUDED
+results/pivot_phase1/REGIONAL_GENE_TIERS_ANNOTATED.tsv	results/pivot_phase1/REGIONAL_GENE_TIERS_ANNOTATED.tsv	Regional gene tiers	public release after author review	INCLUDED
+results/pivot_phase2/AGE_INTERACTION_SENSITIVITY_CONCORDANCE.tsv	results/pivot_phase2/AGE_INTERACTION_SENSITIVITY_CONCORDANCE.tsv	Sensitivity summaries	public release after author review	INCLUDED
+results/pivot_phase2/RPE_SUBTYPE_COMPOSITION_AUDIT.tsv	results/pivot_phase2/RPE_SUBTYPE_COMPOSITION_AUDIT.tsv	Subtype composition audit	public release after author review	INCLUDED
+results/pivot_phase3/GSE220155_SAMPLE_MANIFEST.tsv	results/pivot_phase3/GSE220155_SAMPLE_MANIFEST.tsv	External sample manifest	reused public GEO source	INCLUDED
+results/pivot_phase3/RNA_VALIDATION_METRICS.tsv	results/pivot_phase3/RNA_VALIDATION_METRICS.tsv	External validation metrics	public release after author review	INCLUDED
+raw discovery source	CELLxGENE collection 48c15b0c-6039-4e0f-9668-b6b3c0b830ad	Reused discovery source	reused public source	ACCESSION IN README
+raw external source	GEO GSE220155	Reused validation source	reused public source	ACCESSION IN README

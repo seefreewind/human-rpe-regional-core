@@ -1,0 +1,12 @@
+analysis	term	estimate	SE	OR	CI_low	CI_high	P	N	note
+logistic_all_shared_genes	absolute_Phase1_beta	0.615301432980847	0.04323189309493481	1.8502142311007221	1.6998957446663745	2.0138250899848567	5.751880362002701e-46	16415	Outcome=external same direction; OR per one log2FC unit
+rank_based_all_shared_genes	Spearman_abs_Phase1_vs_abs_external	0.08248219025637389	NA	NA	NA	NA	NA	16415	effect magnitude rank concordance
+rank_based_all_shared_genes	point_biserial_abs_Phase1_vs_same_direction	0.11380400429662701	NA	NA	NA	NA	1.8861084605734155e-48	16415	direction replication increases with discovery magnitude
+fixed_core_subset	CORE100	0.88	NA	NA	NA	NA	NA	100	direction_fraction; median_abs_external_to_discovery_ratio=0.322269
+fixed_core_subset	CORE250	0.816	NA	NA	NA	NA	NA	250	direction_fraction; median_abs_external_to_discovery_ratio=0.324239
+fixed_core_subset	CORE500	0.788	NA	NA	NA	NA	NA	500	direction_fraction; median_abs_external_to_discovery_ratio=0.377806
+effect_size_bins	(-0.0009799000000000001, 0.0801]	0.5181236673773987	NA	NA	NA	NA	NA	3283	direction_fraction; median_abs_external_to_discovery_ratio=8.848891
+effect_size_bins	(0.0801, 0.172]	0.5312214438014011	NA	NA	NA	NA	NA	3283	direction_fraction; median_abs_external_to_discovery_ratio=2.862115
+effect_size_bins	(0.172, 0.302]	0.5510204081632653	NA	NA	NA	NA	NA	3283	direction_fraction; median_abs_external_to_discovery_ratio=1.556570
+effect_size_bins	(0.302, 0.573]	0.5750837648492233	NA	NA	NA	NA	NA	3283	direction_fraction; median_abs_external_to_discovery_ratio=0.878083
+effect_size_bins	(0.573, 6.304]	0.6621992080414255	NA	NA	NA	NA	NA	3283	direction_fraction; median_abs_external_to_discovery_ratio=0.430785

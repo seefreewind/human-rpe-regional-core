@@ -1,0 +1,69 @@
+branch: RPE_REGIONAL_CORE
+status: FROZEN_BEFORE_NEW_BRANCH_ANALYSIS
+freeze_date: 2026-09-22
+question: Is there a reproducible high-effect transcriptional core that distinguishes human macular from peripheral RPE across independent donor cohorts?
+working_title: A conserved high-effect transcriptional core distinguishes human macular and peripheral retinal pigment epithelium
+discovery_source:
+  phase1_model: results/pivot_phase1/MODEL_A_ALL_ELIGIBLE.tsv.gz
+  phase1_tiers: results/pivot_phase1/REGIONAL_GENE_TIERS_ANNOTATED.tsv
+  ranking: absolute_Phase1_Model_A_beta_descending
+  universe_for_core: Phase1_TIER_1_ROBUST_REGIONAL_only
+validation_source:
+  RNA_effects: results/pivot_phase3/GSE220155_RNA_PAIRED_EFFECTS.tsv.gz
+  ATAC_effects: results/pivot_phase3/GSE220155_ATAC_PAIRED_EFFECTS.tsv.gz
+  donor_effect_columns: [external_beta_donor_1, external_beta_donor_2, external_beta_donor_3, external_beta_donor_4]
+fixed_core_sets:
+  CORE100: 100
+  CORE250: 250
+  CORE500: 500
+  nested: true
+  no_post_hoc_top_sets: [TOP50, TOP150, TOP300, TOP1000]
+primary_core_definition:
+  set: CORE100
+  requirements:
+    - external_RNA_same_direction
+    - at_least_3_of_4_external_donors_same_direction
+  external_nominal_P_not_required: true
+effect_size_analysis:
+  all_shared_genes: true
+  logistic_outcome: external_same_direction
+  logistic_predictor: absolute_Phase1_beta
+  rank_analysis: [Spearman_abs_Phase1_vs_abs_external, point_biserial_abs_Phase1_vs_same_direction]
+  bootstrap_reps: 2000
+  bootstrap_seed: 20260922
+gene_activity:
+  interpretation: orthogonal_gene_activity_support_only
+  peak_level_mechanism_claim: prohibited
+  peak_to_gene_links: unavailable
+phase2_context:
+  use: descriptive_CORE100_beta_distribution_only
+  reanalysis: prohibited
+  robust_gene_level_age_region_interaction: 0
+literature_positive_controls:
+  macula: [WFDC1, SULF1]
+  periphery: [ELN, SLC4A5]
+  atac_associated: [ALDH1A3]
+decision_gate:
+  MANUSCRIPT_GO:
+    core100_same_direction_min: 0.80
+    core100_rank_rho_min: 0.50
+    core100_at_least_3_of_4_donor_min: 0.50
+  MANUSCRIPT_CONDITIONAL_GO:
+    first_two_conditions_required: true
+    donor_level_replication_below_primary_gate: true
+  otherwise: ARCHIVE
+claim_boundaries:
+  allowed:
+    - robust_regional_RPE_transcriptional_differences_in_discovery
+    - strongest_regional_effects_show_cross_cohort_reproducibility
+    - replication_strength_is_effect_size_dependent
+    - known_macular_peripheral_RPE_genes_reproduce
+    - genome_wide_concordance_is_modest
+    - no_robust_gene_level_age_region_interaction_detected
+  prohibited:
+    - macula_intrinsically_more_vulnerable
+    - aging_causes_regulatory_collapse
+    - enhancer_buffering_failure
+    - AMD_causality
+    - genome_wide_external_validation_succeeded
+    - chromatin_mechanism_established
