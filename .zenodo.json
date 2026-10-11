@@ -1,0 +1,11 @@
+{
+  "title": "Human RPE Regional Core",
+  "creators": [{"name": "Human RPE Regional Core"}],
+  "description": "Reproducible donor-level analysis of regional transcriptional differences in human retinal pigment epithelium. Frozen analysis scripts, configuration and selected derived tables. Genome-wide external-cohort transferability did not meet the prespecified criterion (Spearman rho = 0.2033; criterion rho >= 0.25). The 71-gene cross-cohort-supported regional core was defined using both cohorts and requires assessment in a third donor-resolved cohort. Gene-activity results provide orthogonal gene-level support, not peak-level or functional validation. This metadata release does not change analyses or numerical results.",
+  "version": "1.1",
+  "publication_date": "2026-10-11",
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "keywords": ["retinal pigment epithelium", "regional transcription", "donor-level analysis", "pseudobulk", "cross-cohort reproducibility"]
+}
